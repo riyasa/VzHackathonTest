@@ -1,2 +1,10 @@
 language: java
 script: mvn clean test install
+deploy:
+   edge: true
+   provider: cloudfoundry
+   username: mohamed.alungal@verizon.com
+   password: Magicphone101*
+   api: https://api.run.pivotal.io
+   organization: VzHackathonTest
+   space: staging
