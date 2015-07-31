@@ -1,6 +1,6 @@
 ---
 applications:
 - name: Hackathon
-path: target/Hackathon-0.0.1-SNAPSHOT.war
-buildpack: https://github.com/cloudfoundry/java-buildpack.git
+path: Hackathon-0.0.1-SNAPSHOT.war
+
 
